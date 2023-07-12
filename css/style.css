@@ -1,0 +1,465 @@
+/* COMMON CSS STARTS HERE====================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root {
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primaryFont);
+    background-color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6,span,paragraph,ol,ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* COMMON CSS ENDS HERE======================================================================================== */
+
+
+/* FOOTER STARTS HERE */
+footer {
+    background-color: #11161E;
+    margin-top: 180px;
+}
+footer .float {
+    position: relative;
+}
+footer .flowtingWindow {
+    background-color: rgb(255, 255, 255);
+    padding: 15px 0;
+    position: absolute;
+    left: 0;
+    top: -65px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+footer .flowtingWindow .freeShipping {
+    display: flex;
+    margin: auto;
+    border-right: 3px solid #F1F1F1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer .flowtingWindow .freeShipping .icon {
+    font-size: 28px;
+    background-color: #FF6F61;
+    width: 60px;
+    height: 60px;
+    line-height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    transition: 0.3s;
+}
+footer .flowtingWindow .freeShipping .text {
+    display: inline-block;
+    margin: auto;
+}
+footer .flowtingWindow .freeShipping .text .text1 {
+    color: var(--text-color, #11161E);
+    font-size: 20px;
+    font-family: var(--primaryFont);
+    font-weight: 600;
+    line-height: 30px;
+}
+footer .flowtingWindow .freeShipping .text .text2 {
+    color: #444;
+    font-size: 14px;
+    font-family: var(--secondaryFont);
+    line-height: 28px;
+}
+footer .flowtingWindow .freeShipping .text .text3 {
+    color: #FF6F61;
+}
+footer .flowtingWindow .quickPayment {
+    display: flex;
+    margin: auto;
+    border-right: 3px solid #F1F1F1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer .flowtingWindow .quickPayment .icon {
+    font-size: 28px;
+    background-color: #FF6F61;
+    width: 60px;
+    height: 60px;
+    line-height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    transition: 0.3s;
+}
+footer .flowtingWindow .quickPayment .text {
+    display: inline-block;
+    margin: auto;
+}
+footer .flowtingWindow .quickPayment .text .text1 {
+    color: var(--text-color, #11161E);
+    font-size: 20px;
+    font-family: var(--primaryFont);
+    font-weight: 600;
+    line-height: 30px;
+}
+footer .flowtingWindow .quickPayment .text .text2 {
+    color: #444;
+    font-size: 14px;
+    font-family: var(--secondaryFont);
+    line-height: 28px;
+}
+footer .flowtingWindow .freeReturns {
+    display: flex;
+    margin: auto;
+    border-right: 3px solid #F1F1F1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer .flowtingWindow .freeReturns .icon {
+    font-size: 28px;
+    background-color: #FF6F61;
+    width: 60px;
+    height: 60px;
+    line-height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    transition: 0.3s;
+}
+footer .flowtingWindow .freeReturns .text {
+    display: inline-block;
+    margin: auto;
+}
+footer .flowtingWindow .freeReturns .text .text1 {
+    color: var(--text-color, #11161E);
+    font-size: 20px;
+    font-family: var(--primaryFont);
+    font-weight: 600;
+    line-height: 30px;
+}
+footer .flowtingWindow .freeReturns .text .text2 {
+    color: #444;
+    font-size: 14px;
+    font-family: var(--secondaryFont);
+    line-height: 28px;
+}
+footer .flowtingWindow .support {
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer .flowtingWindow .support .icon {
+    font-size: 28px;
+    background-color: #FF6F61;
+    width: 60px;
+    height: 60px;
+    line-height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    transition: 0.3s;
+}
+footer .flowtingWindow .support .text {
+    display: inline-block;
+    margin: auto;
+}
+footer .flowtingWindow .support .text .text1 {
+    color: var(--text-color, #11161E);
+    font-size: 20px;
+    font-family: var(--primaryFont);
+    font-weight: 600;
+    line-height: 30px;
+}
+footer .flowtingWindow .support .text .text2 {
+    color: #444;
+    font-size: 14px;
+    font-family: var(--secondaryFont);
+    line-height: 28px;
+}
+footer .optionalWindow {
+    width: 100%;
+    margin-top: 150px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 70px;
+}
+footer .optionalWindow .socialIcons {
+    text-align: left;
+    padding: 0;
+}
+footer .optionalWindow .socialIcons ul li {
+    display: inline-block;
+    background-color: #FFF;
+    transition: 0.3s;
+    margin: 6px 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+footer .optionalWindow .socialIcons ul li:first-child {
+    margin-left: 0;
+}
+footer .optionalWindow .socialIcons ul li:last-child {
+    margin-right: 0;
+}
+footer .optionalWindow .socialIcons ul li a {
+    font-size: 24px;
+    display: block;
+    color: #444444;
+    transition: 0.3s;
+}
+footer .optionalWindow .socialIcons ul li:hover {
+    background-color: #FF6F61;
+}
+footer .optionalWindow .socialIcons ul li:hover a {
+    color: white;
+}
+footer .optionalWindow .logo {
+    text-align: center;
+    padding: 0;
+}
+footer .optionalWindow .paymentCards {
+    text-align: right;
+    padding: 0;
+    margin: 12px 0;
+}
+footer .selectiveWindow {
+    margin-bottom: 79px;
+}
+footer .selectiveWindow .myAccount {
+    padding: 0;
+    padding-right: 10px;
+}
+footer .selectiveWindow .myAccount h2 {
+    color: #FFF;
+    font-family: var(--primaryFont);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 22px;
+}
+footer .selectiveWindow .myAccount .sticker {
+    display: block;
+}
+footer .selectiveWindow .myAccount .sticker a .icon {
+    font-size: 10px;
+    color: white;
+    transition: 0.3s;
+}
+footer .selectiveWindow .myAccount .sticker a:hover {
+    color: #FF6F61;
+}
+footer .selectiveWindow .myAccount .sticker a:hover .icon {
+    color: #FF6F61;
+}
+footer .selectiveWindow .myAccount .sticker a {
+    color: white;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    transition: 0.3s;
+}
+footer .selectiveWindow .support {
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer .selectiveWindow .support h2 {
+    color: #FFF;
+    font-family: var(--primaryFont);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 22px;
+}
+footer .selectiveWindow .support .sticker {
+    display: block;
+}
+footer .selectiveWindow .support .sticker a .icon {
+    font-size: 10px;
+    color: white;
+    transition: 0.3s;
+}
+footer .selectiveWindow .support .sticker a:hover {
+    color: #FF6F61;
+}
+footer .selectiveWindow .support .sticker a:hover .icon {
+    color: #FF6F61;
+}
+footer .selectiveWindow .support .sticker a {
+    color: white;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    transition: 0.3s;
+}
+footer .selectiveWindow .openingTime {
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer .selectiveWindow .openingTime h2 {
+    color: #FFF;
+    font-family: var(--primaryFont);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 22px;
+}
+footer .selectiveWindow .openingTime span {
+    display: block;
+    text-align: left;
+}
+footer .selectiveWindow .openingTime span .text1 {
+    padding: 0;
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+footer .selectiveWindow .openingTime span .text2 {
+    padding: 0;
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+footer .selectiveWindow .contactUs {
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer .selectiveWindow .contactUs h2 {
+    color: #FFF;
+    font-family: var(--primaryFont);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 22px;
+}
+footer .selectiveWindow .contactUs .sticker {
+    display: block;
+}
+footer .selectiveWindow .contactUs .sticker .icon {
+    display: inline-block;
+    font-size: 24px;
+    color: #FF6F61;
+    text-align: center;
+}
+footer .selectiveWindow .contactUs .sticker .text {
+    display: inline-block;
+}
+footer .selectiveWindow .contactUs .sticker .text address {
+    display: inline-block;
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+footer .selectiveWindow .contactUs .sticker .text a {
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+footer .selectiveWindow .newsLetter {
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer .selectiveWindow .newsLetter h2 {
+    color: #FFF;
+    font-family: var(--primaryFont);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 22px;
+}
+footer .selectiveWindow .newsLetter p {
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+footer .selectiveWindow .newsLetter input {
+    border: none;
+    outline: none;
+    color: #8F8F8F;
+    font-family: var(--secondaryFont);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+}
+footer .selectiveWindow .newsLetter button {
+    background-color: #FF6F61;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+footer .selectiveWindow .newsLetter button h2 {
+    /* padding: 12px 17px 8px 17px; */
+    padding: 5px 7px;
+    color: #FFF;
+    text-align: left;
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0;
+}
+footer #copyRight {
+    background-color: #3d3c3c;
+}
+footer #copyRight p {
+    margin: 0;
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+footer #copyRight p span {
+    color: #FF6F61;
+}
+/* FOOTER ENDS HERE */
